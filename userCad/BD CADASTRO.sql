@@ -1,0 +1,9 @@
+CREATE TABLE usuario (
+    id INT AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    senha TEXT NOT NULL,
+    data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY(id));
+  
+  
